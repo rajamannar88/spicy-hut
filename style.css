@@ -73,7 +73,11 @@ header a i,nav a i {
     background-color: var(--green);
     color: var(--white);
     border: 1px solid var(--green);
+    cursor: pointer;
 }
+button:hover {  
+    background-color: #45a049;  
+} 
 .menu {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(218px,1fr));
